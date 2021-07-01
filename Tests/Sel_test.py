@@ -10,8 +10,11 @@ class Test_homework():
     def test_first(self):
 
         driver = webdriver.Chrome()
+        time.sleep(4)
+
 
         driver.get("https://google.com")
+        time.sleep(4)
         allure.attach(driver.get_screenshot_as_png(),
                       name="test_screenshot",
                       attachment_type=AttachmentType.PNG)
