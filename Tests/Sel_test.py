@@ -10,7 +10,7 @@ class Test_homework():
     def test_first(self):
 
         driver = webdriver.Chrome()
-        time.sleep(4)
+        time.sleep(10)
 
 
         driver.get("https://google.com")
