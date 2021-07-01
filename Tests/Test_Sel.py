@@ -14,9 +14,7 @@ class Test_homework():
 
 
         driver.get("https://google.com")
-        time.sleep(4)
         allure.attach(driver.get_screenshot_as_png(),
                       name="test_screenshot",
                       attachment_type=AttachmentType.PNG)
-        time.sleep(4)
         driver.quit()
