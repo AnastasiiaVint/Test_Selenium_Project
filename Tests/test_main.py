@@ -72,3 +72,5 @@ import math
 # # print("element: ", element)
 
 
+lst = "world"
+print("world" in lst)
