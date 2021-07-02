@@ -27,3 +27,5 @@ class Test_google_search_page():
             allure.attach(browser.get_screenshot_as_png(),
                           name="test_screenshot",
                           attachment_type=AttachmentType.PNG)
+
+            assert False
