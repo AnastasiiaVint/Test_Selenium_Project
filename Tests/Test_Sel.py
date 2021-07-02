@@ -24,6 +24,6 @@ class Test_google_search_page():
 
         except:
 
-            allure.attach(self.driver.get_screenshot_as_png(),
+            allure.attach(browser.get_screenshot_as_png(),
                           name="test_screenshot",
                           attachment_type=AttachmentType.PNG)
