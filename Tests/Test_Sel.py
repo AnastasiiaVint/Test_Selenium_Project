@@ -19,7 +19,7 @@ class Test_google_search_page():
             time.sleep(3)
             main_page.click_on_the_search_button()
             results = main_page.check_search_result()
-            assert "world" in results[0]
+            assert "test" in results[0]
 
 
         except:
