@@ -9,6 +9,8 @@ import allure
 # @pytest.mark.usefixtures("browser")
 class Test_google_search_page():
 
+    @pytest.mark.regression
+    @pytest.mark.dev1
     @allure.feature('Test search')
     @allure.story('Test search')
     def test_search(self, browser):
@@ -30,6 +32,8 @@ class Test_google_search_page():
 
             assert False
 
+    @pytest.mark.regression
+    @pytest.mark.dev2
     @allure.feature('Test search 2')
     @allure.story('Test search 2')
     def test_search_2(self, browser):
