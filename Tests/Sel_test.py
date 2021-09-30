@@ -6,7 +6,7 @@ import allure
 
 class Test_homework():
 
-    @allure.feature('Test edit 222')
+    @allure.feature('Test edit 222-v2')
     def test_first(self):
         pass
         # driver = webdriver.Chrome()
